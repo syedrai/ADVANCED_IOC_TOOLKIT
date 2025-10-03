@@ -1,0 +1,14 @@
+API quota allowances for your user
+You own a standard free end-user account. It is not tied to any corporate group and so it does not have access to Premium services. You are subjected to the following limitations:
+
+Access level
+ Limited
+, standard free public API
+Upgrade to premium
+Usage	Must not be used in business workflows, commercial products or services.
+Request rate	4 lookups / min
+Daily quota	500 lookups / day
+Monthly quota	15.5 K lookups / month
+Want to learn more about how our intelligence can supercharge your security operations? check our 360 overview brief.
+
+Want to upgrade your access? Please do not hesitate to contact us, we’ll go the extra mile to make you successful.

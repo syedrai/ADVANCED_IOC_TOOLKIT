@@ -1,0 +1,31 @@
+🚀 COMPLETE USAGE GUIDE
+1. Installation & Setup
+bash
+# Install required packages
+pip install -r requirements.txt
+
+# Get your VirusTotal API key from:
+# https://www.virustotal.com/gui/user/{username}/apikey
+2. Single IOC Analysis
+bash
+# Enhanced single IOC lookup
+python vt_enhanced_ioc_lookup.py -a YOUR_API_KEY -i 185.220.101.141 -o single_report.json
+
+# Different IOC types
+python vt_enhanced_ioc_lookup.py -a YOUR_API_KEY -d malware.com
+python vt_enhanced_ioc_lookup.py -a YOUR_API_KEY -f 44d88612fea8a8f36de82e1278abb02f
+python vt_enhanced_ioc_lookup.py -a YOUR_API_KEY -u "http://suspicious-site.com"
+3. Batch Analysis
+bash
+# Process multiple IOCs
+python batch_threat_analyzer.py -a YOUR_API_KEY -i ioc_examples.txt -o batch_report.json
+
+# With custom delay (more aggressive)
+python batch_threat_analyzer.py -a YOUR_API_KEY -i iocs.txt -o report.json -d 20
+4. Visualization & Dashboard
+bash
+# View analysis results
+python threat_dashboard.py -r batch_report.json
+
+# Generate visualizations
+python threat_dashboard.py -r batch_report.json -v -o my_analysis

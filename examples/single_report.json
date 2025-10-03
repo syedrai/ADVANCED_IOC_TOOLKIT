@@ -1,0 +1,35 @@
+{
+  "ioc_type": "ip",
+  "ioc_value": "185.220.101.141",
+  "timestamp": "2025-10-03T17:34:52.648978",
+  "summary": {
+    "risk_score": 23,
+    "confidence": "high",
+    "recommendation": "Block immediately",
+    "shelf_life": "short"
+  },
+  "detection_metrics": {
+    "malicious": 11,
+    "suspicious": 3,
+    "undetected": 29,
+    "harmless": 52,
+    "timeout": 0
+  },
+  "context_analysis": [
+    "High detection count",
+    "Poor reputation score"
+  ],
+  "detailed_analysis": {
+    "country": "DE",
+    "asn": 60729,
+    "as_owner": "Stiftung Erneuerbare Freiheit",
+    "reputation": -15,
+    "network_context": "LOW - Standard network infrastructure"
+  },
+  "mitigation_recommendations": [
+    "OBSERVE: Continue normal monitoring",
+    "Document for future reference",
+    "Check network traffic logs",
+    "Review DNS query history"
+  ]
+}
